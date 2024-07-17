@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-// Define constants for array sizes
+// Emmanuel Binoy George
+//Roll No.:30
+
+
 #define MAX_PROPERTIES 100
 #define MAX_CLIENTS 100
 #define MAX_INQUIRIES 100
 #define MAX_VIEWINGS 100
 #define MAX_TRANSACTIONS 100
 
-// Define structures for Property, Client, Inquiry, Viewing, and Transaction
 typedef struct {
     int id;
     char address[100];
@@ -47,14 +49,14 @@ typedef struct {
     char date[11];
 } Transaction;
 
-// Arrays to store entities
+
 Property properties[MAX_PROPERTIES];
 Client clients[MAX_CLIENTS];
 Inquiry inquiries[MAX_INQUIRIES];
 Viewing viewings[MAX_VIEWINGS];
 Transaction transactions[MAX_TRANSACTIONS];
 
-// Counters to track the number of entities
+
 int propertyCount = 0;
 int clientCount = 0;
 int inquiryCount = 0;
